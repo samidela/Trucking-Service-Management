@@ -1,19 +1,58 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import { Home } from "./components/home";
+import { NoMatch } from "./components/noMatch";
+import { Layout } from "./components/layout";
 import NavigationBar from "./components/navigationBar";
+import { Jumbotron } from "./components/jumbotron";
+import { Dispatch } from "./components/Services/dispatch";
+import { Biennial } from "./components/Services/biennial";
+import { CabCard } from "./components/Services/cabCard";
+import { CarrierPacket } from "./components/Services/carrierPacket";
+import { Form2290 } from "./components/Services/form2290";
+import { Ifta } from "./components/Services/ifta";
+import { UcrRegistration } from "./components/Services/ucrRegistration";
+import { JobApplication } from "./components/FutureDrivers/jobApplication";
+import { EligibilityCheck } from "./components/FutureDrivers/eligibilityCheck";
+import { BOL } from "./components/CurrentDrivers/bol";
+import { Login } from "./components/CurrentDrivers/login";
 
-function App() {
-  return (
-    <div>
-      <div className="container-fluid">
-        <div className="bg-info text-white text-center p-2" to="/">
-          <h4>Gary Trucking LLC</h4>
-        </div>
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
         <NavigationBar />
-      </div>
-    </div>
-  );
+        <Jumbotron />
+        <Layout>
+          <Switch>
+            <Route exact path="/" component={Home} />{" "}
+            <Route path="/Services/biennial" component={Biennial} />
+            <Route path="/Services/CabCard" component={CabCard} />
+            <Route path="/Services/CarrierPacket" component={CarrierPacket} />
+            <Route path="/Services/Dispatch" component={Dispatch} />
+            <Route path="/Services/form2290" component={Form2290} />
+            <Route path="/Services/Ifta" component={Ifta} />
+            <Route
+              path="/FutureDrivers/JobApplication"
+              component={JobApplication}
+            />
+            <Route
+              path="/FutureDrivers/EligibilityChecker"
+              component={EligibilityCheck}
+            />
+            <Route
+              path="/Services/UcrRegistration"
+              component={UcrRegistration}
+            />
+            <Route path="/CurrentDrivers/Bol" component={BOL} />
+            <Route path="/CurrentDrivers/Login" component={Login} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Layout>
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;
