@@ -16,7 +16,7 @@ import { UcrRegistration } from "./components/Services/ucrRegistration";
 import { JobApplication } from "./components/FutureDrivers/jobApplication";
 import { EligibilityCheck } from "./components/FutureDrivers/eligibilityCheck";
 import { BOL } from "./components/CurrentDrivers/bol";
-import { Login } from "./components/CurrentDrivers/login";
+import Login from "./components/login/login";
 
 class App extends Component {
   render() {
@@ -46,7 +46,7 @@ class App extends Component {
               component={UcrRegistration}
             />
             <Route path="/CurrentDrivers/Bol" component={BOL} />
-            <Route path="/CurrentDrivers/Login" component={Login} />
+            <Route path="/CurrentDrivers/login" component={Login} />
             <Route component={NoMatch} />
           </Switch>
         </Layout>

@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  background-color: #17a2b8;
+  color: red;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  padding: 12px;
+}
+
+.header-title {
+  font-size: 50px;
+}
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+h4 {
+  font-size: 35px;
+}
+.navbar {
+  font-size: 18px;
+  font: bold "Marko One", Georgia, serif;
+}
+.layout {
+  background-color: aliceblue;
+}

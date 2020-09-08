@@ -8,7 +8,7 @@ const Styles = styled.div`
     background: url(${truckImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #ccc;
-    min-height: 200px;
+    min-height: 300px;
     position: relative;
     z-index: -2;
   }
@@ -21,7 +21,7 @@ const Styles = styled.div`
     bottom: 0;
     right: 0;
     z-index: -1;
-    min-height: 200px;
+    min-height: 300px;
   }
 `;
 
