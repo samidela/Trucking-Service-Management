@@ -8,7 +8,7 @@ import NavigationBar from "./components/navigationBar";
 import { Jumbotron } from "./components/jumbotron";
 import { Dispatch } from "./components/Services/dispatch";
 import { Biennial } from "./components/Services/biennial";
-import { CabCard } from "./components/Services/cabCard";
+import CabCard from "./components/Services/cabCard";
 import { CarrierPacket } from "./components/Services/carrierPacket";
 import { Form2290 } from "./components/Services/form2290";
 import { Ifta } from "./components/Services/ifta";
