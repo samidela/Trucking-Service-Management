@@ -9,7 +9,7 @@ class NavigationBar extends Component {
         <div className="header container-fluid">
           <div className=" header-title bg-info text-white text-center  w3-black w3-center w3-allerta">
             <NavbarBrand className="w3-xxxlarge">
-              <Link to="/home "> Gary Trucking LLC</Link>
+              <Link to="/"> Gary Trucking LLC</Link>
             </NavbarBrand>
           </div>
         </div>
