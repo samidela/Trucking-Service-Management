@@ -7,13 +7,18 @@ class NavigationBar extends Component {
     return (
       <div>
         <div className="header container-fluid">
-          <div className=" header-title bg-info text-white text-center  w3-black w3-center w3-allerta">
+          <div className=" header-title text-white text-center  w3-black w3-center w3-allerta">
             <NavbarBrand className="w3-xxxlarge">
-              <Link to="/"> Gary Trucking LLC</Link>
+              <Link to="/">
+                {" "}
+                <span className="header-title text-white">
+                  Gary Trucking LLC
+                </span>
+              </Link>
             </NavbarBrand>
           </div>
         </div>
-        <Navbar bg="light" expand="lg" className="justify-content-between">
+        <Navbar bg="light" expand="lg" className="justify-content-between ">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
