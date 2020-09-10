@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import Form from "../common/form";
-import  Joi from "joi-browser";
+import Joi from "joi-browser";
 
 class CabCard extends Form {
   state = {
@@ -28,7 +28,7 @@ class CabCard extends Form {
 
   render() {
     return (
-      <div>
+      <div className="layout">
         <h4>Cab Card Form</h4>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("name", "Name")}
