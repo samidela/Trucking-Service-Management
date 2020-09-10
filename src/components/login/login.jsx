@@ -16,7 +16,7 @@ class Login extends Component {
   };
 
   render() {
-    const { username, password } = this.state;
+    const { password } = this.state;
     return (
       <div className="login-page">
         <form className="form-signin" onSubmit={this.handleSubmit}>
