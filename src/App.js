@@ -13,10 +13,11 @@ import CarrierPacket from "./components/Services/carrierPacket";
 import Form2290 from "./components/Services/form2290";
 import Ifta from "./components/Services/ifta";
 import UcrRegistration from "./components/Services/ucrRegistration";
-import { JobApplication } from "./components/FutureDrivers/jobApplication";
-import { EligibilityCheck } from "./components/FutureDrivers/eligibilityCheck";
-import { BOL } from "./components/CurrentDrivers/bol";
+import JobApplication from "./components/FutureDrivers/jobApplication";
+import EligibilityCheck from "./components/FutureDrivers/eligibilityCheck";
+import BOL from "./components/CurrentDrivers/bol";
 import Login from "./components/login/login";
+import road from "./Assets/road.jpg";
 
 class App extends Component {
   render() {

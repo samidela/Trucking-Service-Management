@@ -28,7 +28,7 @@ class Biennial extends Form {
 
   render() {
     return (
-      <div>
+      <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>Biennial </h1>
         <p>
           The biennial update is a requirement set by the FMCSA to update your

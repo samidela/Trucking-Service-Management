@@ -28,16 +28,15 @@ class form2290 extends Form {
 
   render() {
     return (
-      <div>
-        <h1>IRP Cab Card </h1>
+      <div className="row jumbotron jumbotron-fluid pl-4">
+        <h1>FORM 2290 (HVUT) </h1>
         <p>
-          If you plan on carrying cargo through more than one state, you will
-          need to get an International Registration Plan (IRP). This allows you
-          to haul loads through the contiguous 48 states and Canada with a
-          single registration. You will receive an apportioned license plate.
-          The registration fee is usually $1,500-$2,000, and varies by state and
-          vehicle weight. Here is the state list with links to each
-          jurisdiction.
+          Heavy Highway Vehicle Use Tax Return or Form 2290 is a Federal Excise
+          Tax imposed on vehicles operating in public highways with a gross
+          weight of 55,000 pounds or more. Taxes are collected annually and are
+          used for highway construction and maintenance.The purpose is to figure
+          out and pay the tax due on a used taxable vehicle acquired and used
+          during the period of July 2020 to July 2021.
         </p>
         <form className=" layout ">
           {this.renderInput("name", "Name")}

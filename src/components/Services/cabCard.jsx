@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "../common/form";
 import Joi from "joi-browser";
+import { Container } from 'react-bootstrap';
 
 class CabCard extends Form {
   state = {
@@ -28,7 +29,7 @@ class CabCard extends Form {
 
   render() {
     return (
-      <div>
+      <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>IRP Cab Card </h1>
         <p>
           If you plan on carrying cargo through more than one state, you will
@@ -39,12 +40,14 @@ class CabCard extends Form {
           vehicle weight. Here is the state list with links to each
           jurisdiction.
         </p>
-        <form className=" layout ">
+        <form className="col-xs-4">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
           {this.renderInput("dot", "DOT")}
           {this.renderInput("description", "Description")}
+          {<div class="form-group"> <label for="exampleInputFile">Upload Here </label> <input type="file" id="exampleInputFile"></input>
+    <p class="help-block"></p> </div>}
           {this.renderButton("Submit")}
         </form>
       </div>

@@ -28,24 +28,25 @@ class Dispatch extends Form {
 
   render() {
     return (
-      <div>
+      <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>Dispatch </h1>
         <p>
-          If you plan on carrying cargo through more than one state, you will
-          need to get an International Registration Plan (IRP). This allows you
-          to haul loads through the contiguous 48 states and Canada with a
-          single registration. You will receive an apportioned license plate.
-          The registration fee is usually $1,500-$2,000, and varies by state and
-          vehicle weight. Here is the state list with links to each
-          jurisdiction.
+          Truck dispatchers coordinate and manage the schedules of truck drivers
+          to ensure products and goods are picked up and delivered in a timely
+          manner. They receive calls for truck services and contact their fleet
+          of truck drivers to arrange the pickups and deliveries.
         </p>
         <form className=" layout ">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
           {this.renderInput("dot", "DOT")}
-          {this.renderInput("description", "Description")}
+          {this.renderInput("description", "Description (optional)")}
           {this.renderButton("Submit")}
+          <br />
+          <br />
+          <p>Call or email Us to get a rate</p>
+          
         </form>
       </div>
     );

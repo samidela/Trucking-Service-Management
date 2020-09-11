@@ -28,12 +28,16 @@ class Ifta extends Form {
 
   render() {
     return (
-      <div>
+      <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>Ifta </h1>
         <p>
-          The Unified Carrier Registration (UCR) is a federal system of
-          registering and collecting fees from operators of vehicles
-          participating in interstate commerce.
+          The IFTA tax matrix lists rates by jurisdiction and fuel type each
+          fiscal quarter. After each quarter, you will complete a fuel tax
+          report with your your IFTA jurisdiction office. This report will
+          include all the miles you have travelled and gallons of fuel
+          purchased. Any fuel taxes paid when purchasing fuel are credited to
+          your account. You must file a return even if you traveled no miles and
+          used no taxable fuel during the quarter.
         </p>
         <form className=" layout ">
           {this.renderInput("name", "Name")}
