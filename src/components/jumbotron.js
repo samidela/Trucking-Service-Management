@@ -30,8 +30,17 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1>Welcome</h1>
-        <p>Truck with Us pls</p>
+        <h5>
+          We are committed to providing our customers with the highest quality
+          of service and safety in the trucking industry.
+        </h5>
+        <br></br>
+        <br></br>
+        <br></br>
+        <h6>
+          Send us an email at garytruckingllc@yahoo.com
+        </h6>
+
       </Container>
     </Jumbo>
   </Styles>
