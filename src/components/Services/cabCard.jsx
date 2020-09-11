@@ -28,9 +28,18 @@ class CabCard extends Form {
 
   render() {
     return (
-      <div className="layout">
-        <h4>Cab Card Form</h4>
-        <form onSubmit={this.handleSubmit}>
+      <div>
+        <h1>IRP Cab Card </h1>
+        <p>
+          If you plan on carrying cargo through more than one state, you will
+          need to get an International Registration Plan (IRP). This allows you
+          to haul loads through the contiguous 48 states and Canada with a
+          single registration. You will receive an apportioned license plate.
+          The registration fee is usually $1,500-$2,000, and varies by state and
+          vehicle weight. Here is the state list with links to each
+          jurisdiction.
+        </p>
+        <form className=" layout ">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
