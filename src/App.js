@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-import { Home } from "./components/home";
+import Home from "./components/home";
 import { NoMatch } from "./components/noMatch";
 import { Layout } from "./components/layout";
 import NavigationBar from "./components/navigationBar";
@@ -17,7 +17,6 @@ import JobApplication from "./components/FutureDrivers/jobApplication";
 import EligibilityCheck from "./components/FutureDrivers/eligibilityCheck";
 import BOL from "./components/CurrentDrivers/bol";
 import Login from "./components/login/login";
-import road from "./Assets/road.jpg";
 
 class App extends Component {
   render() {
@@ -51,6 +50,18 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </Layout>
+        <footer class="container">
+          <p class="float-right">
+            <a href="#">Back to top</a>
+          </p>
+          <p>
+            &copy; 2020 Gary Trucking LLC &middot;{" "}
+            <a className="float-left" href="/">
+              2020 Gary Trucking LLC
+            </a>{" "}
+            &middot; <a href="#"></a>
+          </p>
+        </footer>
       </React.Fragment>
     );
   }
