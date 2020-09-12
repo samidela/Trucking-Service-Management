@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Assets/road.jpg);
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+     url("./Assets/road.jpg") no-repeat fixed bottom;
 }
 
 code {
@@ -38,10 +42,12 @@ h4 {
   font: bold "Marko One", Georgia, serif;
 }
 .layout {
-  position: relative;
+  position: relative; 
   height: auto;
-  padding: 10px;
-  font-size: 16px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  
 }
 .select {
   position: relative;
@@ -54,11 +60,12 @@ h4 {
 .home-h1 {
   color: #111;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 55px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: -1px;
   line-height: 1;
   text-align: center;
+  padding: 5 2 4 3
 }
 
 .home-h2 {
@@ -89,4 +96,17 @@ h4 {
 .column {
   float: left;
   width: 50%;
+}
+img {
+  opacity: 0.5;
+}
+.homer {
+  font-size-adjust: 80px;
+};
+.red {
+  background-image: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.5),
+      rgba(255, 0, 0, 0.5)
+    )
 }
