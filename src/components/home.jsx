@@ -1,5 +1,4 @@
 import React from "react";
-import road from "../Assets/road.jpg";
 import { Jumbotron, Button } from "react-bootstrap";
 
 export const Home = () => (
