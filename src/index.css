@@ -81,3 +81,12 @@ h4 {
   text-justify: inter-word;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+}
