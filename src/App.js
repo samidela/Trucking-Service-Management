@@ -7,7 +7,7 @@ import { Layout } from "./components/layout";
 import NavigationBar from "./components/navigationBar";
 import { Jumbotron } from "./components/jumbotron";
 import Dispatch from "./components/Services/dispatch";
-import Biennial from "./components/Services/biennial";
+import Authority from "./components/Services/authority";
 import CabCard from "./components/Services/cabCard";
 import CarrierPacket from "./components/Services/carrierPacket";
 import Form2290 from "./components/Services/form2290";
@@ -27,7 +27,7 @@ class App extends Component {
         <Layout>
           <Switch>
             <Route exact path="/" component={Home} />{" "}
-            <Route path="/Services/biennial" component={Biennial} />
+            <Route path="/Services/authority" component={Authority} />
             <Route path="/Services/CabCard" component={CabCard} />
             <Route path="/Services/CarrierPacket" component={CarrierPacket} />
             <Route path="/Services/Dispatch" component={Dispatch} />
@@ -50,16 +50,15 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </Layout>
-        <footer class="container">
-          <p class="float-right">
-            <a href="#">Back to top</a>
+        <footer className="container">
+          <p className="float-right">
+            <a href="/">Back to top</a>
           </p>
           <p>
-            &copy; 2020 Gary Trucking LLC &middot;{" "}
+            &copy; Gary Trucking LLC 2020 &middot;{" "}
             <a className="float-left" href="/">
               2020 Gary Trucking LLC
             </a>{" "}
-            &middot; <a href="#"></a>
           </p>
         </footer>
       </React.Fragment>
