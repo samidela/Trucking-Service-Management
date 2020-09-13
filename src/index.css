@@ -5,11 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-     url("./Assets/road.jpg") no-repeat fixed bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Assets/road.jpg") no-repeat fixed bottom;
 }
 
 code {
@@ -22,11 +19,11 @@ code {
   width: 100%;
   text-align: center;
   height: 70px;
-  padding: 12px;
+  padding: 8px;
 }
 
 .header-title {
-  font-size: 30px;
+  font-size: 35px;
 }
 a:hover {
   text-decoration: none;
@@ -42,12 +39,10 @@ h4 {
   font: bold "Marko One", Georgia, serif;
 }
 .layout {
-  position: relative; 
+  position: relative;
   height: auto;
   font-size: 17px;
-  font-family: 'Source Sans Pro', sans-serif;
-
-  
+  font-family: "Source Sans Pro", sans-serif;
 }
 .select {
   position: relative;
@@ -65,7 +60,7 @@ h4 {
   letter-spacing: -1px;
   line-height: 1;
   text-align: center;
-  padding: 5 2 4 3
+  padding: 5 2 4 3;
 }
 
 .home-h2 {
@@ -102,11 +97,14 @@ img {
 }
 .homer {
   font-size-adjust: 80px;
-};
+}
 .red {
-  background-image: 
-    linear-gradient(
-      rgba(255, 0, 0, 0.5),
-      rgba(255, 0, 0, 0.5)
-    )
+  background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5));
+}
+.borders {
+  border: 2px solid;
+  border-radius: 5px;
+}
+.button {
+  disable: false;
 }
