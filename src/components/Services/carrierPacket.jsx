@@ -28,14 +28,14 @@ class CarrierPacket extends Form {
 
   render() {
     return (
-      <div className="row jumbotron jumbotron-fluid pl-4">
+      <div className="row jumbotron jumbotron-fluid pl-4 pr-3">
         <h1>Carrier Packet </h1>
-        <p>
+        <p >
           The carrier Packet is an agreement between the carrier and the broker
           and it allows the carrier to carry out the load with principles in
           place.
         </p>
-        <form className=" layout ">
+        <form className=" column ">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
@@ -43,6 +43,13 @@ class CarrierPacket extends Form {
           {this.renderInput("description", "Description")}
           {this.renderButton("Submit")}
         </form>
+        <div style={{ color: "red" }} className="column container pl-5">
+          <h3>Required Materials</h3>
+          <ul>
+            <li>MC</li>
+            <li>Insured Truck and Trailer</li>
+          </ul>
+        </div>
       </div>
     );
   }
