@@ -8,10 +8,10 @@ class NavigationBar extends Component {
       <div>
         <div className="header container-fluid">
           <div className=" header-title text-white text-center  w3-black w3-center w3-allerta">
-            <NavbarBrand className="w3-xxxlarge">
+            <NavbarBrand className=" w3-xxxlarge">
               <Link to="/">
                 {" "}
-                <span className="header-title text-white">
+                <span className=" header-title text-white">
                   Gary Trucking LLC
                 </span>
               </Link>
@@ -27,8 +27,8 @@ class NavigationBar extends Component {
                 id="basic-nav-dropdown"
                 className="pl-5"
               >
-                <NavDropdown.Item href="/Services/biennial">
-                  Biennial
+                <NavDropdown.Item href="/Services/authority">
+                  Authority
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/Services/cabcard">
                   Cab Card
