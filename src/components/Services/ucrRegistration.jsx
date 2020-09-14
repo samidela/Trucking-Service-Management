@@ -35,12 +35,11 @@ class UcrRegistration extends Form {
           registering and collecting fees from operators of vehicles
           participating in interstate commerce.
         </p>
-        <form className=" layout ">
+        <form className=" column ">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
-          {this.renderInput("dot", "DOT")}
-          {this.renderInput("description", "Description")}
+          {this.renderInput("dot", "DOT #")}
           {this.renderButton("Submit")}
         </form>
       </div>
