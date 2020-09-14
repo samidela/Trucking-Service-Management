@@ -1,6 +1,8 @@
 import React from "react";
 import Form from "../common/form";
 import Joi from "joi-browser";
+import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 class EligibilityCheck extends Form {
   state = {
@@ -40,9 +42,14 @@ class EligibilityCheck extends Form {
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
-          <label for="exampleInputFile">Upload Here </label>{" "}
+          <label for="exampleInputFile">Upload Driver License </label>{" "}
           <input type="file" id="exampleInputFile"></input>
-          <p class="help-block"></p> {this.renderButton("Submit")}
+          <p class="help-block "></p> {this.renderButton("Submit")}
+          <Button className="pr-4 btn btn-md float-right">
+            <Link style={{ color: "#ffff" }} to="/futureDrivers/jobApplication">
+              Job Application
+            </Link>
+          </Button>
         </form>
       </div>
     );
