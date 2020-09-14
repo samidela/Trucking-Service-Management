@@ -51,14 +51,13 @@ class App extends Component {
           </Switch>
         </Layout>
         <footer className="container">
-          <p className="float-right">
-            <a href="/">Back to top</a>
-          </p>
+          <p className="float-right">All Rights Reserved</p>
           <p>
-            &copy; Gary Trucking LLC 2020 &middot;{" "}
-            <a className="float-left" href="/">
-              2020 Gary Trucking LLC
-            </a>{" "}
+            &copy; &middot;{" "}
+            <span className="float-left" to="/">
+              {" "}
+              <span>Gary Trucking LLC 2020 </span>
+            </span>{" "}
           </p>
         </footer>
       </React.Fragment>
