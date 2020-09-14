@@ -45,8 +45,7 @@ class Dispatch extends Form {
           {this.renderButton("Submit")}
           <br />
           <br />
-          <p>Call or email Us to get a rate</p>
-          
+          <p style={{ color: 'red'}}>Call or Email Us to Get a Rate</p>
         </form>
       </div>
     );
