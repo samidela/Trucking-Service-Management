@@ -18,7 +18,7 @@ class Ifta extends Form {
     name: Joi.string().required().label("Name"),
     phone: Joi.number().required().label("Phone"),
     email: Joi.string().email().required().label("Email"),
-    dot: Joi.number().required().label("DOT"),
+    mc: Joi.number().required().label("MC"),
     description: Joi.string(),
   };
 
@@ -29,7 +29,7 @@ class Ifta extends Form {
   render() {
     return (
       <div className="row jumbotron jumbotron-fluid pl-4">
-        <h1>Ifta </h1>
+        <h1>IFTA </h1>
         <p>
           The IFTA tax matrix lists rates by jurisdiction and fuel type each
           fiscal quarter. After each quarter, you will complete a fuel tax
@@ -39,12 +39,11 @@ class Ifta extends Form {
           your account. You must file a return even if you traveled no miles and
           used no taxable fuel during the quarter.
         </p>
-        <form className=" layout ">
+        <form className=" column ">
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
-          {this.renderInput("dot", "DOT")}
-          {this.renderInput("description", "Description")}
+          {this.renderInput("dot", "MC #")}
           {this.renderButton("Submit")}
         </form>
       </div>
