@@ -1,7 +1,7 @@
 import React from "react";
 
 export const NoMatch = () => (
-  <div>
+  <div className="row jumbotron jumbotron-fluid pl-4">
     <h1 style={{ color: "#cdce "}} >Contact US</h1>
     <ul style={{ color: "#fdfd ", fontSize: "18px" }} className="container pl-4 pt-3 ">
       Call - (469) 602-15722
