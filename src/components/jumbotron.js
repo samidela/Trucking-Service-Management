@@ -2,7 +2,6 @@ import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
 import truckImage from "../Assets/truckimage.jpg";
-import App from "./../App";
 
 const Styles = styled.div`
   .jumbo {
@@ -41,7 +40,7 @@ export const Jumbotron = () => (
             >
               Apply
             </a>
-            <p style={{ fontSize: "21px" }} className="container pl-4 pt-3">
+            <p style={{ fontSize: "19px" }} className="container pl-4 pt-3">
               Gary Trucking LLC is constantly looking for talented individuals
               that can deliver the goods our customers need. If you are looking
               for an exciting opportunity with a company that's clearly going
@@ -58,18 +57,19 @@ export const Jumbotron = () => (
             <ul style={{ fontSize: "17px" }} className="container pl-4 pt-3">
               <li>
                 Run under your own MC number - we’ll take care of all the
-                paperwork
+                paperwork.
               </li>
               <li>
                 We’ll file your federal and state permits, so you don’t have to
-                worry about what step is next
+                worry about what step is next.
               </li>
               <li>
                 Get guidance through the whole process, even after you’re up and
-                running
+                running.
               </li>
               <li>
-                Avoid delays by letting the experts take care of the legal stuff
+                Avoid delays by letting the experts take care of the legal
+                stuff.
               </li>
             </ul>
           </div>

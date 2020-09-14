@@ -40,11 +40,11 @@ class NavigationBar extends Component {
                   Dispatch
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/Services/form2290">
-                  form 2290
+                  Form 2290
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Services/ifta">Ifta</NavDropdown.Item>
+                <NavDropdown.Item href="/Services/ifta">IFTA</NavDropdown.Item>
                 <NavDropdown.Item href="/Services/ucrRegistration">
-                  Ucr Registration
+                  UCR Registration
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
