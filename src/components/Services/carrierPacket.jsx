@@ -18,7 +18,7 @@ class CarrierPacket extends Form {
     name: Joi.string().required().label("Name"),
     phone: Joi.number().required().label("Phone"),
     email: Joi.string().email().required().label("Email"),
-    dot: Joi.number().required().label("DOT"),
+    dot: Joi.number().required().label("MC #"),
     description: Joi.string(),
   };
 
@@ -39,8 +39,8 @@ class CarrierPacket extends Form {
           {this.renderInput("name", "Name")}
           {this.renderInput("phone", "Phone")}
           {this.renderInput("email", "Email")}
-          {this.renderInput("dot", "DOT")}
-          {this.renderInput("description", "Description")}
+          {this.renderInput("mc", "MC #")}
+          {this.renderInput("description", "Description (Optional)")}
           {this.renderButton("Submit")}
         </form>
         <div style={{ color: "red" }} className="column container pl-5">
