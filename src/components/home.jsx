@@ -2,9 +2,9 @@ import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 
 export const Home = () => (
-  <div className="layout jumbotron jumbotron-fluid container ">
+  <div className="layout j container ">
     <Jumbotron>
-      <h1>Welcome!</h1>
+      <h1>Come Work With Us!</h1>
       <p>
         Our goal at Gary Trucking LLC is to provide our customers with the
         highest quality of service and safety in the trucking industry.
@@ -14,7 +14,7 @@ export const Home = () => (
         customers.
       </p>
       <p>
-        <Button variant="primary">Learn more</Button>
+        <Button href="/FutureDrivers/EligibilityChecker"variant="primary">Check if you are Eligible</Button>
       </p>
     </Jumbotron>
   </div>

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: #ffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -42,7 +43,6 @@ h4 {
   position: relative;
   height: auto;
   font-size: 17px;
-  font-family: "Source Sans Pro", sans-serif;
 }
 .select {
   position: relative;
@@ -107,4 +107,43 @@ img {
 }
 .button {
   disable: false;
+}
+.jumbotron-fluid {
+  padding-top: 1.5em;
+  padding-bottom: 1.4em;
+}
+.jumbotron {
+  padding: 2rem 2rem;
+  background-color: rgba(129, 21, 21, 0.397);
+}
+App {
+  text-align: center;
+  height: 5000px;
+}
+
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
