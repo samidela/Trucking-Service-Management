@@ -120,17 +120,3 @@ App {
   text-align: center;
   height: 5000px;
 }
-
-
-.scrollTop:hover {
-  opacity: 1;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
