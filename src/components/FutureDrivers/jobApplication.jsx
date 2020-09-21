@@ -52,7 +52,7 @@ class JobApplication extends Form {
           {this.renderButton("Submit")}
         </form>
         <div style={{color:"red"}}className="column container pl-5">
-          <h3>Required Materials</h3>
+          <h3>Requirements</h3>
           <ul>
             <li>21 years old</li>
             <li>Class A CDL</li>
