@@ -37,7 +37,7 @@ class CabCard extends Form {
           single registration. You will receive an apportioned license plate.
           The registration fee is usually $1,500-$2,000, and varies by state and
           vehicle weight. Here is the state list with links to each
-          jurisdiction.
+          jurisdiction. Cab Cards are yearly.
         </p>
         <form className="col-xs-4 container column">
           {this.renderInput("name", "Name")}
