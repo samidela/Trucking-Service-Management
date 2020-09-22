@@ -46,11 +46,11 @@ class CabCard extends Form {
           {this.renderInput("dot", "DOT #")}
           {this.renderInput("description", "Description of what you need.")}
           {
-            <div class="form-group">
+            <div className="form-group">
               {" "}
               <label for="exampleInputFile">Upload Here </label>{" "}
               <input type="file" id="exampleInputFile"></input>
-              <p class="help-block"></p>{" "}
+              <p className="help-block"></p>{" "}
             </div>
           }
           {this.renderButton("Submit")}
