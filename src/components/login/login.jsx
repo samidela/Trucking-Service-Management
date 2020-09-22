@@ -33,7 +33,7 @@ class Login extends Component {
             />
           </div>
           <div>
-            <label for="password" class="sr-only" />
+            <label for="password" className="sr-only" />
             <input
               type="password"
               id="password"
