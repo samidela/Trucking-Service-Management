@@ -42,16 +42,16 @@ class JobApplication extends Form {
           {this.renderInput("email", "Email")}
           {this.renderInput("description", "Description")}
           {
-            <div class="form-group">
+            <div className="form-group">
               {" "}
               <label for="exampleInputFile">Upload Driver License </label>{" "}
               <input type="file" id="exampleInputFile"></input>
-              <p class="help-block"></p>{" "}
+              <p className="help-block"></p>{" "}
             </div>
           }
           {this.renderButton("Submit")}
         </form>
-        <div style={{color:"red"}}className="column container pl-5">
+        <div style={{ color: "red" }} className="column container pl-5">
           <h3>Requirements</h3>
           <ul>
             <li>21 years old</li>
