@@ -40,11 +40,11 @@ class BOL extends Form {
         <form className="col-xs-3 ">
           {this.renderInput("name", "Name")}
           {this.renderInput("load", "Load #")}
-          <div class="form-group">
+          <div className="form-group">
             {" "}
             <label for="exampleInputFile">Upload Here </label>{" "}
             <input type="file" id="exampleInputFile"></input>
-            <p class="help-block"></p>{" "}
+            <p className="help-block"></p>{" "}
           </div>
           {this.renderButton("Submit")}
         </form>
