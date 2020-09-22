@@ -44,7 +44,7 @@ class EligibilityCheck extends Form {
           {this.renderInput("email", "Email")}
           <label for="exampleInputFile">Upload Driver License </label>{" "}
           <input type="file" id="exampleInputFile"></input>
-          <p class="help-block "></p> {this.renderButton("Submit")}
+          <p className="help-block "></p> {this.renderButton("Submit")}
           <Button className="pr-4 btn btn-md float-right">
             <Link style={{ color: "#ffff" }} to="/futureDrivers/jobApplication">
               Job Application
