@@ -31,7 +31,7 @@ class Dispatch extends Form {
       <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>Dispatch </h1>
         <p>
-          Truck dispatchers coordinate and manage the schedules of truck drivers
+          Our truck dispatchers coordinate and manage the schedules of truck drivers
           to ensure products and goods are picked up and delivered in a timely
           manner. They receive calls for truck services and contact their fleet
           of truck drivers to arrange the pickups and deliveries.
