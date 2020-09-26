@@ -47,7 +47,7 @@ class EligibilityCheck extends Form {
           <p className="help-block "></p> {this.renderButton("Submit")}
           <Button className="pr-4 btn btn-md float-right">
             <Link style={{ color: "#ffff" }} to="/futureDrivers/jobApplication">
-              Job Application
+              Job Application 
             </Link>
           </Button>
         </form>
