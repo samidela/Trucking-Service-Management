@@ -54,7 +54,7 @@ class JobApplication extends Form {
         <div style={{ color: "red" }} className="column container pl-5">
           <h3>Requirements</h3>
           <ul>
-            <li>21 years old</li>
+            <li>21 years old and above</li>
             <li>Class A CDL</li>
             <li>1 year of experience (Preferred)</li>
             <li> Must Have a Clean Record</li>
