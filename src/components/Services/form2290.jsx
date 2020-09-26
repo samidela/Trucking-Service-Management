@@ -31,7 +31,7 @@ class form2290 extends Form {
       <div className="row jumbotron jumbotron-fluid pl-4 pr-3">
         <h1>FORM 2290 (HVUT) </h1>
         <p>
-          Heavy Highway Vehicle Use Tax Return or Form 2290 is a Federal Excise
+          Heavy Highway Vehicle Use Tax Return(HVUT) or Form 2290 is a Federal Excise
           Tax imposed on vehicles operating in public highways with a gross
           weight of 55,000 pounds or more. Taxes are collected annually and are
           used for highway construction and maintenance.The purpose is to figure
