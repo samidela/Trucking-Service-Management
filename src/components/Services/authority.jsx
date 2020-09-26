@@ -46,7 +46,7 @@ class Authority extends Form {
           <ul style={{ color: "red" }} className="pr-3 float-right  ">
             <h3>Required Materials</h3>
             <li>MC</li>
-            <li>Insured Truck and Trailer</li>
+            <li>Insured Truck</li>
           </ul>
         </div>
       </div>
