@@ -31,7 +31,7 @@ class CarrierPacket extends Form {
       <div className="row jumbotron jumbotron-fluid pl-4 pr-3">
         <h1>Carrier Packet </h1>
         <p >
-          The carrier Packet is an agreement between the carrier and the broker
+          The Carrier Packet is an agreement between the carrier and the broker
           and it allows the carrier to carry out the load with principles in
           place.
         </p>
