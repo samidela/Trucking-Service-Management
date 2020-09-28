@@ -36,7 +36,7 @@ class Ifta extends Form {
           report with your your IFTA jurisdiction office. This report will
           include all the miles you have travelled and gallons of fuel
           purchased. Any fuel taxes paid when purchasing fuel are credited to
-          your account. You must file a return even if you did not traveled any miles and
+          your account. You must file a return even if you did not travel any miles and
           used no taxable fuel during the quarter.
         </p>
         <form className=" column ">
