@@ -35,9 +35,8 @@ class CabCard extends Form {
           need to get an International Registration Plan (IRP). This allows you
           to haul loads through the contiguous 48 states and Canada with a
           single registration. You will receive an apportioned license plate.
-          The registration fee is usually $1,500-$2,000, and varies by state and
-          vehicle weight. Here is the state list with links to each
-          jurisdiction. Cab Cards are useful for a year.
+          The registration fee is usually $1,200-$1400, and varies by state and
+          vehicle weight. Cab Cards are useful for a year.
         </p>
         <form className="col-xs-4 container column">
           {this.renderInput("name", "Name")}
