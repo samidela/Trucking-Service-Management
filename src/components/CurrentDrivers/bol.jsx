@@ -34,7 +34,8 @@ class BOL extends Form {
         <p>
           Upload your Proof of Delivery below. We eill use the document to send
           it along with the rate of confirmation to the factoring company, so
-          that you are paid as quickly as possible.
+          that you are paid as quickly as possible. P.S. make sure the document
+          is clear and legible.
         </p>
 
         <form className="col-xs-3 ">
