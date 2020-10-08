@@ -34,9 +34,9 @@ class EligibilityCheck extends Form {
         <h1>Eligibility Checker </h1>
         <p className="container-fluid">
           Submit a copy of your driver license by attaching it below and we will
-          let you know if you are eligible to drive with us. below and we will
-          let you know if you are eligibl below and we will let you know if you
-          are eligibl
+          let you know if you are eligible to drive with us. We will conduct a
+          quick background check and we will send an email to let yoy know if we
+          will move forward with you.
         </p>
         <form className=" layout ">
           {this.renderInput("name", "Name")}
@@ -47,7 +47,7 @@ class EligibilityCheck extends Form {
           <p className="help-block "></p> {this.renderButton("Submit")}
           <Button className="pr-4 btn btn-md float-right">
             <Link style={{ color: "#ffff" }} to="/futureDrivers/jobApplication">
-              Job Application (HIRING) 
+              Job Application (HIRING)
             </Link>
           </Button>
         </form>
