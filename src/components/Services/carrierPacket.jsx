@@ -30,10 +30,11 @@ class CarrierPacket extends Form {
     return (
       <div className="row jumbotron jumbotron-fluid pl-4 pr-3">
         <h1>Carrier Packet </h1>
-        <p >
+        <p>
           The Carrier Packet is an agreement between the carrier and the broker
           and it allows the carrier to carry out the load with principles in
-          place. Call or Email to have someone assist you in fillling it out.
+          place. Call or Email to have someone assist you in fillling out so you
+          can get on the road quickly.
         </p>
         <form className=" column ">
           {this.renderInput("name", "Name")}
