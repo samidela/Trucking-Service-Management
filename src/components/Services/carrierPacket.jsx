@@ -33,7 +33,7 @@ class CarrierPacket extends Form {
         <p >
           The Carrier Packet is an agreement between the carrier and the broker
           and it allows the carrier to carry out the load with principles in
-          place. Call to have someone assist you in fillling it out.
+          place. Call or Email to have someone assist you in fillling it out.
         </p>
         <form className=" column ">
           {this.renderInput("name", "Name")}
