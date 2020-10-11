@@ -10,7 +10,7 @@ export const Home = () => (
         highest quality of service and safety in the trucking industry.
         Excellence in service and safety are company goals. We measure ourselves
         by the high standards of our customers, and value their input. Mutual
-        progress towards defined goals is our objective in working with our 
+        progress towards defined goals is our objective in working with our customers
         .
       </p>
       <p>
