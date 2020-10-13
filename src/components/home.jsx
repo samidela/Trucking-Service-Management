@@ -6,7 +6,7 @@ export const Home = () => (
     <Jumbotron>
       <h1>Come Work With Us!</h1>
       <p>
-        Our goal at Gary Trucking LLC is to provide our customers with the
+         is to provide our customers with the
         highest quality of service and safety in the trucking industry.
         Excellence in service and safety are company goals. We measure ourselves
         by the high standards of our customers, and value their input. Mutual
