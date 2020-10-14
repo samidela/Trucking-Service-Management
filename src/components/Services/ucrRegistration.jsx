@@ -31,7 +31,9 @@ class UcrRegistration extends Form {
       <div className="row jumbotron jumbotron-fluid pl-4">
         <h1>UCR Registration </h1>
         <p>
-          
+          The Unified Carrier Registration (UCR) is a federal system of
+          registering and collecting fees from operators of vehicles
+          participating in interstate (48 states) commerce.
         </p>
         <form className=" column ">
           {this.renderInput("name", "Name")}
